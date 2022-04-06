@@ -1,24 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comfortaa:wght@300;400;700&display=swap');
 
-* {
-  
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Comfortaa', cursive;
-}
 
 :root {
   --black: #0f0f0f;
   --white: #FAFAFA;
   --oceanblue: #b7daff;
-  --darkblue: #0917a8;
+  --darkblue: #178196;
   --grey:#3b3b3b;
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
   
-  background-color: var(--oceanblue);
+  background: linear-gradient(180deg, rgba(237,246,255,1) 30%, rgba(138,235,255,1) 100%);
 }
 
 header {
@@ -118,7 +115,7 @@ main  {
 }
 
 .buttons button {
-  background-color: var(--darkblue);
+  background-color: white;
   border: none;
   padding: 10px;
   font-size: 30px;
@@ -129,7 +126,7 @@ main  {
 
 
 .buttons button:hover {
-  background-color: #050b4d;
+  background-color: var(--darkblue);
   cursor: pointer;
   
 }
